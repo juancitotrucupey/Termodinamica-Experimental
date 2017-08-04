@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fit>
+<fit version="1.0">
+<model>termistor2</model>
+<type>2</type>
+<function>1/(A+B*ln(x)+C*(ln(x))^3)</function>
+<parameter>
+    <name>A</name>
+    <explanation></explanation>
+    <value>1.0000000000000e+00</value>
+</parameter>
+<parameter>
+    <name>B</name>
+    <explanation></explanation>
+    <value>1.0000000000000e+00</value>
+</parameter>
+<parameter>
+    <name>C</name>
+    <explanation></explanation>
+    <value>1.0000000000000e+00</value>
+</parameter>
+</fit>

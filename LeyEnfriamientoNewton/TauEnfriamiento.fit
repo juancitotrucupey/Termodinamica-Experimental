@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fit>
+<fit version="1.0">
+<model>TauEnfriamiento</model>
+<type>2</type>
+<function>C*P*H/((2/x)+(4/D))</function>
+<parameter>
+    <name>C</name>
+    <explanation></explanation>
+    <value>1.0000000000000e+00</value>
+</parameter>
+<parameter>
+    <name>D</name>
+    <explanation></explanation>
+    <value>1.0000000000000e+00</value>
+</parameter>
+<parameter>
+    <name>H</name>
+    <explanation></explanation>
+    <value>1.0000000000000e+00</value>
+</parameter>
+<parameter>
+    <name>P</name>
+    <explanation></explanation>
+    <value>1.0000000000000e+00</value>
+</parameter>
+</fit>

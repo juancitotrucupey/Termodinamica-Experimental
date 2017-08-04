@@ -1,0 +1,47 @@
+#include <iostream>
+#include <cmath>
+ const double Ti = 77.15;
+ const double Tf = 296.15;
+ const double K= 82.50768;
+const int N=1000;
+const double Q =30.7;
+using namespace std;
+
+double f(double a)
+{ return pow(a,3)/(exp(a)-1);
+}
+
+double IntegralPorSimpson( double b, double a)
+{
+double h=(b-a)/N;
+int i; double xi,suma,integral;
+
+suma=0;
+for(i=0;i<=N;i++)
+    {
+    xi=a+i*h;
+    if((i==0)||(i==N))
+    suma+=f(xi);
+    else if(i%2==0)
+    suma+=2*f(xi);
+    else
+suma+=4*f(xi);
+}
+integral=h/3*suma;
+return integral;
+}
+
+
+int main(void)
+{
+double a=0.000001/Tf, dt=1, Td, F;
+for(Td=1;Td<1000;Td+=dt){
+
+F = (K/pow(Td,3))*(pow(Tf,4)*IntegralPorSimpson(Td/Tf,a) - pow(Ti,4)*IntegralPorSimpson(Td/Ti,a))-Q;
+//F = (K/pow(Td,3))*pow(Tf,4)*IntegralPorSimpson(Td/Tf,a) ;
+
+cout<<Td<<" "<<F<<endl;
+}
+return 0;
+
+}

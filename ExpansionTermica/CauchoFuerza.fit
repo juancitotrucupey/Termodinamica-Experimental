@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fit>
+<fit version="1.0">
+<model>CauchoFuerza</model>
+<type>2</type>
+<function>A*(x-1/(x*x))</function>
+<parameter>
+    <name>A</name>
+    <explanation></explanation>
+    <value>1.0000000000000e+00</value>
+</parameter>
+</fit>

@@ -1,0 +1,1372 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	12
+<table>
+Tabla1	30	2	22/04/16 14:15
+geometry	0	419	445	220	minimized	
+header	1[Y]	2[X]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	0.00038	33
+1	0.00035	31
+2	0.00032	29
+3	0.00029	28
+4	0.00027	26
+5	0.00024	25
+6	0.00022	23
+7	0.00021	22
+8	0.0002	21
+9	0.00018	20
+10	0.00017	19
+11	0.00016	18
+12	0.00015	17
+13	0.00014	16
+14	0.00013	15
+15	0.00012	14
+16	0.00011	13
+17	9e-05	12
+18	8e-05	11
+19	7e-05	10
+20	7e-05	9
+21	6e-05	8
+22	5e-05	7
+23	4e-05	6
+24	3e-05	5
+25	2e-05	4
+26	1e-05	2
+27	0	0
+</data>
+</table>
+<table>
+Tabla2	30	2	22/04/16 15:25
+geometry	50	50	445	220	
+header	2[Y]	1[X]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	0.00031	22
+1	0.00029	21
+2	0.00028	20
+3	0.00027	19
+4	0.00025	18
+5	0.00023	17
+6	0.00021	16
+7	0.00019	15
+8	0.00018	14
+9	0.00016	13
+10	0.00015	12
+11	0.00013	11
+12	0.00012	10
+13	0.0001	9
+14	9e-05	8
+15	8e-05	7
+16	7e-05	6
+17	5e-05	5
+18	4e-05	4
+19	3e-05	3
+20	2e-05	2
+21	1e-05	1
+22	0	0
+</data>
+</table>
+<multiLayer>
+Gráfica1	1	1	22/04/16 15:20
+geometry	733	23	613	485	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	595	425
+<PageGeometry>0.00826446	0.0114416	0.983471	0.97254</PageGeometry>
+PlotTitle	Título	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	9	75	0	0	0
+ScaleFont0	Cantarell	7	75	0	0	0
+ScaleFont1	Cantarell	7	75	0	0	0
+ScaleFont2	Cantarell	7	75	0	0	0
+ScaleFont3	Cantarell	7	75	0	0	0
+AxisFont0	Cantarell	7	50	0	0	0
+AxisFont1	Cantarell	7	50	0	0	0
+AxisFont2	Cantarell	7	50	0	0	0
+AxisFont3	Cantarell	7	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#313739	#313739	#313739	#313739
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Tabla1_2	Tabla1_1	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>LinealAjustar1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>0	33</Range>
+<Points>2</Points>
+<Constant>A	1.15114949828528e-05</Constant>
+<Constant>B	-3.39679918709513e-05</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>0</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>PolinomialUsserAjustar1</Title>
+<Expression>a0+a1*x+a2*x^2</Expression>
+<Variable>x</Variable>
+<Range>0	33</Range>
+<Points>100</Points>
+<Constant>a0	3.6824657348636e-05</Constant>
+<Constant>a1	0</Constant>
+<Constant>a2	3.3680404677017e-07</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#000000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>0</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>PolinomialUsserAjustar2</Title>
+<Expression>a0+a1*x+a2*x^2</Expression>
+<Variable>x</Variable>
+<Range>0	33</Range>
+<Points>100</Points>
+<Constant>a0	-1.25776094207231e-06</Constant>
+<Constant>a1	5.8580908976358e-06</Constant>
+<Constant>a2	1.71606560526431e-07</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#000000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-0.0001	0.0005	0	7	5	0	0
+scale	1	-0.0001	0.0005	0	7	5	0	0
+scale	2	-5	35	0	9	5	0	0
+scale	3	-5	35	0	9	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-3.9974937343358</x>
+<y>0.00038494983277592</y>
+<right>4.10714285714286</right>
+<bottom>0.000336454849498328</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+\l(3)%(3)
+\l(4)%(4)
+</Text>
+<Font>Cantarell	7	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Gráfica2	1	1	22/04/16 15:25
+geometry	315	-58	613	485	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	-6	-8	620	444
+<PageGeometry>-0.00991736	-0.0183066	1.02479	1.01602</PageGeometry>
+PlotTitle	Acero inoxidable	#000000	4
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	1	1	1	1	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	ΔT (k<sup>o</sup>)	ΔL (m)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	5124	4	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	20	75	0	0	0
+ScaleFont0	Cantarell	14	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	14	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#313739	#313739	#313739	#313739
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Tabla2_1	Tabla2_2	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>LinealAjustar1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>0	22</Range>
+<Points>2</Points>
+<Constant>A	1.44071146245059e-05</Constant>
+<Constant>B	-1.67391304347827e-05</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-5e-05	0.00035	0	9	5	0	0
+scale	1	-5e-05	0.00035	0	9	5	0	0
+scale	2	-1	25	0	6	5	0	0
+scale	3	-1	25	0	6	5	0	0
+LabelsFormat	2	0	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	2	5
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	0	1	0
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>1.5417515274949</x>
+<y>0.00029819277108434</y>
+<right>13.8798370672098</right>
+<bottom>0.000247590361445783</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+α<sub>lineal</sub> = 16.9*10<sup>-6</sup> k<sup>-1</sup>
+</Text>
+<Font>Cantarell	17	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<folder>	Cobre	22/04/16 15:25	
+<open>1</open>
+<table>
+Tabla3	35	2	22/04/16 15:33
+geometry	0	0	445	220	
+header	1[Y]	2[X]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	0.00049	34
+1	0.00046	33
+2	0.00043	32
+3	0.00042	31
+4	0.0004	30
+5	0.00037	29
+6	0.00035	28
+7	0.00034	27
+8	0.00032	26
+9	0.00031	25
+10	0.00029	24
+11	0.00028	23
+12	0.00026	22
+13	0.00025	21
+14	0.00023	20
+15	0.00022	19
+16	0.00021	18
+17	0.00019	17
+18	0.00018	16
+19	0.00016	15
+20	0.00015	14
+21	0.00014	13
+22	0.00013	12
+23	0.00012	11
+24	0.00011	10
+25	0.0001	9
+26	9e-05	8
+27	8e-05	7
+28	7e-05	6
+29	5e-05	5
+30	4e-05	4
+31	3e-05	3
+32	2e-05	2
+33	1e-05	1
+34	0	0
+</data>
+</table>
+<table>
+Tabla4	35	2	22/04/16 15:35
+geometry	921	0	445	220	
+header	1[Y]	2[X]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	0.00048	34
+1	0.00046	33
+2	0.00044	32
+3	0.00043	31
+4	0.00041	30
+5	0.00039	29
+6	0.00037	28
+7	0.00035	27
+8	0.00033	26
+9	0.00032	25
+10	0.0003	24
+11	0.00028	23
+12	0.00026	22
+13	0.00025	21
+14	0.00024	20
+15	0.00022	19
+16	0.00021	18
+17	0.0002	17
+18	0.00018	16
+19	0.00017	15
+20	0.00016	14
+21	0.00014	13
+22	0.00013	12
+23	0.00012	11
+24	0.00011	10
+25	0.0001	9
+26	9e-05	8
+27	7e-05	7
+28	6e-05	6
+29	5e-05	5
+30	4e-05	4
+31	3e-05	3
+32	2e-05	2
+33	1e-05	1
+34	0	0
+</data>
+</table>
+<multiLayer>
+Gráfica3	1	1	22/04/16 15:34
+geometry	575	2	510	430	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	4	5	494	368
+<PageGeometry>0.00796813	0.013089	0.984064	0.963351</PageGeometry>
+PlotTitle	Título	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	8	75	0	0	0
+ScaleFont0	Cantarell	7	75	0	0	0
+ScaleFont1	Cantarell	7	75	0	0	0
+ScaleFont2	Cantarell	7	75	0	0	0
+ScaleFont3	Cantarell	7	75	0	0	0
+AxisFont0	Cantarell	7	50	0	0	0
+AxisFont1	Cantarell	7	50	0	0	0
+AxisFont2	Cantarell	7	50	0	0	0
+AxisFont3	Cantarell	7	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#313739	#313739	#313739	#313739
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Tabla3_2	Tabla3_1	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	34	1
+<Function>
+<Type>0</Type>
+<Title>LinealAjustar1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>0	34</Range>
+<Points>2</Points>
+<Constant>A	1.36666666666667e-05</Constant>
+<Constant>B	-2.37619047619048e-05</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-0.0001	0.0005	0	7	5	0	0
+scale	1	-0.0001	0.0005	0	7	5	0	0
+scale	2	-5	35	0	9	5	0	0
+scale	3	-5	35	0	9	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-3.9974937343358</x>
+<y>0.00047993311036789</y>
+<right>-1.29502572898799</right>
+<bottom>0.00022258064516129</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Cantarell	7	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Gráfica4	1	1	22/04/16 15:43
+geometry	360	7	547	485	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	-5	-8	559	443
+<PageGeometry>-0.00927644	-0.0183066	1.03711	1.01373</PageGeometry>
+PlotTitle	Cobre	#000000	4
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	1	1	1	1	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	ΔT (k<sup>o</sup>)	ΔL (m)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	5124	4	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	21	75	0	0	0
+ScaleFont0	Cantarell	14	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	14	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#313739	#313739	#313739	#313739
+AxesBaseline	0	0	0	0	
+CanvasFrame	1	#000000
+CanvasBackground	#ffffff	0
+curve	Tabla4_2	Tabla4_1	1	0	#000000	0	1	9	9	#000000	#000000	0	#000000	14	2	2	0	0	34	1
+<Function>
+<Type>0</Type>
+<Title>LinealAjustar1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>0	34</Range>
+<Points>2</Points>
+<Constant>A	1.40140056022409e-05</Constant>
+<Constant>B	-2.62380952380953e-05</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-0.0001	0.0005	0	7	5	0	0
+scale	1	-0.0001	0.0005	0	7	5	0	0
+scale	2	-5	35	0	9	5	0	0
+scale	3	-5	35	0	9	5	0	0
+LabelsFormat	2	0	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	2	6
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	0	1	0
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-1.4319248826291</x>
+<y>0.00044757281553398</y>
+<right>24.4835680751174</right>
+<bottom>0.000350485436893204</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+α<sub>lineal</sub>=18.4*10<sup>-6</sup> k<sup>-1</sup>
+</Text>
+<Font>Cantarell	17	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>1</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<log>
+[22/04/16 15:33	Gráfica: ''Gráfica3'']
+Regresión Lineal of dataset: Tabla3_2, usando función : A*x+B
+Método de Pesado: Sin pesado
+Desde x = 4,900000000000000e-04 a x = 0,000000000000000e+00
+B (y-intercept) = 1,955987328405488e+00 +/- 3,782595287503795e-01
+A (slope) = 7,212882787750792e+04 +/- 1,509076599108337e+03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,540439025951169e+00
+R^2 = 0,985760647659275
+Adjusted R^2 = 0,98487068813798
+RMSE (Root Mean Squared Error) = 1,24114424059058
+RSS (Residual Sum of Squares) = 50,8344878563886
+---------------------------------------------------------------------------------------
+[22/04/16 15:34	Gráfica: ''Gráfica3'']
+Regresión Lineal of dataset: Tabla3_1, usando función : A*x+B
+Método de Pesado: Sin pesado
+Desde x = 3,400000000000000e+01 a x = 0,000000000000000e+00
+B (y-intercept) = -2,376190476190477e-05 +/- 5,653968578056159e-06
+A (slope) = 1,366666666666667e-05 +/- 2,859334812636245e-07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,918759018759018e-10
+R^2 = 0,985760647659275
+Adjusted R^2 = 0,98487068813798
+RMSE (Root Mean Squared Error) = 1,70843759580472e-05
+RSS (Residual Sum of Squares) = 9,63190476190476e-09
+---------------------------------------------------------------------------------------
+[22/04/16 15:43	Gráfica: ''Gráfica4'']
+Regresión Lineal of dataset: Tabla4_1, usando función : A*x+B
+Método de Pesado: Sin pesado
+Desde x = 3,400000000000000e+01 a x = 0,000000000000000e+00
+B (y-intercept) = -2,623809523809526e-05 +/- 5,100772280568306e-06
+A (slope) = 1,401400560224090e-05 +/- 2,579571419934068e-07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,375545369663017e-10
+R^2 = 0,988942535940126
+Adjusted R^2 = 0,988251444436384
+RMSE (Root Mean Squared Error) = 1,54128043186924e-05
+RSS (Residual Sum of Squares) = 7,83929971988796e-09
+---------------------------------------------------------------------------------------
+
+</log>
+</folder>
+<folder>	Aluminio	22/04/16 15:44		current
+<open>1</open>
+<table>
+Tabla5	34	2	22/04/16 15:58
+geometry	0	0	445	220	
+header	1[Y]	2[X]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	0.00067	33
+1	0.00064	32
+2	0.00061	31
+3	0.00058	30
+4	0.00056	29
+5	0.00053	28
+6	0.0005	27
+7	0.00047	26
+8	0.00045	25
+9	0.00042	24
+10	0.0004	23
+11	0.00037	22
+12	0.00035	21
+13	0.00033	20
+14	0.00031	19
+15	0.00029	18
+16	0.00027	17
+17	0.00025	16
+18	0.00023	15
+19	0.00021	14
+20	0.00019	13
+21	0.00018	12
+22	0.00017	11
+23	0.00015	10
+24	0.00014	9
+25	0.00012	8
+26	0.0001	7
+27	9e-05	6
+28	7e-05	5
+29	6e-05	4
+30	4e-05	3
+31	3e-05	2
+32	2e-05	1
+33	0	0
+</data>
+</table>
+<table>
+Tabla6	33	2	22/04/16 16:12
+geometry	50	50	445	220	
+header	2[X]	1[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	32	0.00065
+1	31	0.00063
+2	30	0.00059
+3	29	0.00056
+4	28	0.00053
+5	27	0.0005
+6	26	0.00047
+7	25	0.00044
+8	24	0.00042
+9	23	0.0004
+10	22	0.00038
+11	21	0.00035
+12	20	0.00034
+13	19	0.00032
+14	18	0.0003
+15	17	0.00027
+16	16	0.00026
+17	15	0.00024
+18	14	0.00022
+19	13	0.0002
+20	12	0.00019
+21	11	0.00016
+22	10	0.00015
+23	9	0.00014
+24	8	0.00012
+25	7	0.00011
+26	6	9e-05
+27	5	8e-05
+28	4	6e-05
+29	3	5e-05
+30	2	3e-05
+31	1	2e-05
+32	0	0
+</data>
+</table>
+<multiLayer>
+Gráfica5	1	1	22/04/16 15:58
+geometry	541	-109	615	485	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	22	-8	597	424
+<PageGeometry>0.0362438	-0.0183066	0.983526	0.970252</PageGeometry>
+PlotTitle	Título	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	9	75	0	0	0
+ScaleFont0	Cantarell	8	75	0	0	0
+ScaleFont1	Cantarell	8	75	0	0	0
+ScaleFont2	Cantarell	8	75	0	0	0
+ScaleFont3	Cantarell	8	75	0	0	0
+AxisFont0	Cantarell	8	50	0	0	0
+AxisFont1	Cantarell	8	50	0	0	0
+AxisFont2	Cantarell	8	50	0	0	0
+AxisFont3	Cantarell	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#313739	#313739	#313739	#313739
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Tabla5_2	Tabla5_1	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	33	1
+<Function>
+<Type>0</Type>
+<Title>LinealAjustar1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>0	33</Range>
+<Points>2</Points>
+<Constant>A	1.98502673796791e-05</Constant>
+<Constant>B	-3.92941176470588e-05</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>PolinomialAjustar1</Title>
+<Expression>a0+a1*x+a2*x^2</Expression>
+<Variable>x</Variable>
+<Range>0	33</Range>
+<Points>100</Points>
+<Constant>a0	1.10560224089633e-05</Constant>
+<Constant>a1	1.04096161191749e-05</Constant>
+<Constant>a2	2.860803412274e-07</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>0</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>ExpGrowthAjustar1</Title>
+<Expression>y0+A*exp(x/t)</Expression>
+<Variable>x</Variable>
+<Range>0	33</Range>
+<Points>100</Points>
+<Constant>A	-203979.07613079</Constant>
+<Constant>t	-10275808839.991</Constant>
+<Constant>y0	203979.07609149</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#000000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>0</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>ExpGrowthUsserAjustar1</Title>
+<Expression>y0+A*exp(x/t)</Expression>
+<Variable>x</Variable>
+<Range>0	33</Range>
+<Points>100</Points>
+<Constant>A	0.000277647058823483</Constant>
+<Constant>t	-163100781351.211</Constant>
+<Constant>y0	0</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#000000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>0</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>No LinealAjustar1</Title>
+<Expression>y0+A*exp(w*(x+b)^2)</Expression>
+<Variable>x</Variable>
+<Range>0	33</Range>
+<Points>100</Points>
+<Constant>A	-7.72547147289728</Constant>
+<Constant>b	323</Constant>
+<Constant>w	-3.79135101763549e-09</Constant>
+<Constant>y0	7.72238164854666</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#000000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>No LinealAjustar2</Title>
+<Expression>y0+A*exp(w*(x+b)^2)</Expression>
+<Variable>x</Variable>
+<Range>0	33</Range>
+<Points>100</Points>
+<Constant>A	-7.78762693971386</Constant>
+<Constant>b	18.1905534147569</Constant>
+<Constant>w	-3.6740237660133e-08</Constant>
+<Constant>y0	7.78754332158796</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#000000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>No LinealAjustar3</Title>
+<Expression>y0+A*exp(w*(x+b)^2)</Expression>
+<Variable>x</Variable>
+<Range>0	33</Range>
+<Points>100</Points>
+<Constant>A	-5.30950579762148e-05</Constant>
+<Constant>b	570979.042278981</Constant>
+<Constant>w	-0.000902569316286592</Constant>
+<Constant>y0	0</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#000000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-0.0001	0.0007	0	9	5	0	0
+scale	1	-0.0001	0.0007	0	9	5	0	0
+scale	2	-5	35	0	9	5	0	0
+scale	3	-5	35	0	9	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-3.9974937343358</x>
+<y>0.00067324414715719</y>
+<right>4.06666666666667</right>
+<bottom>0.000598327759197324</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+\l(3)%(3)
+\l(6)%(6)
+\l(7)%(7)
+\l(8)%(8)
+</Text>
+<Font>Cantarell	8	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Gráfica6	1	1	22/04/16 16:13
+geometry	250	-15	615	485	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	4	-9	613	444
+<PageGeometry>0.00658979	-0.020595	1.00988	1.01602</PageGeometry>
+PlotTitle	Aluminio	#000000	4
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	1	1	1	1	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	ΔT (k<sup>o</sup>)	ΔL (m)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	5124	4	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	20	75	0	0	0
+ScaleFont0	Cantarell	14	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	14	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#313739	#313739	#313739	#313739
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Tabla6_2	Tabla6_1	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	32	1
+<Function>
+<Type>0</Type>
+<Title>LinealAjustar1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>0	32</Range>
+<Points>2</Points>
+<Constant>A	1.96356951871658e-05</Constant>
+<Constant>B	-3.32620320855615e-05</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-0.0001	0.0007	0	9	5	0	0
+scale	1	-0.0001	0.0007	0	9	5	0	0
+scale	2	-5	35	0	9	5	0	0
+scale	3	-5	35	0	9	5	0	0
+LabelsFormat	2	0	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	2	5
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	0	1	0
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-1.6115702479339</x>
+<y>0.00058192771084337</y>
+<right>19.2148760330579</right>
+<bottom>0.000475903614457831</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+α<sub>lineal</sub> = 26.6*10<sup>-6</sup> k<sup>-1</sup>
+</Text>
+<Font>Cantarell	18	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<log>
+[22/04/16 15:58	Gráfica: ''Gráfica5'']
+Regresión Lineal of dataset: Tabla5_1, usando función : A*x+B
+Método de Pesado: Sin pesado
+Desde x = 3,300000000000000e+01 a x = 0,000000000000000e+00
+B (y-intercept) = -3,929411764705876e-05 +/- 8,682029398490333e-06
+A (slope) = 1,985026737967914e-05 +/- 4,522749205237192e-07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 6,693983957219253e-10
+R^2 = 0,983659436429885
+Adjusted R^2 = 0,982605206522136
+RMSE (Root Mean Squared Error) = 2,58727346007708e-05
+RSS (Residual Sum of Squares) = 2,14207486631016e-08
+---------------------------------------------------------------------------------------
+[22/04/16 16:13	Gráfica: ''Gráfica6'']
+Regresión Lineal of dataset: Tabla6_1, usando función : A*x+B
+Método de Pesado: Sin pesado
+Desde x = 3,200000000000000e+01 a x = 0,000000000000000e+00
+B (y-intercept) = -3,326203208556152e-05 +/- 8,399340481165304e-06
+A (slope) = 1,963569518716578e-05 +/- 4,511169488013001e-07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 6,088914524754182e-10
+R^2 = 0,983901002908064
+Adjusted R^2 = 0,982827736435268
+RMSE (Root Mean Squared Error) = 2,46757259766642e-05
+RSS (Residual Sum of Squares) = 1,8875635026738e-08
+---------------------------------------------------------------------------------------
+
+[28/04/16 12:41	Gráfica: ''Gráfica5'']
+Polynomial Fit of dataset: Tabla5_1, usando función : a0+a1*x+a2*x^2
+Método de Pesado: Sin pesado
+Desde x = 3,300000000000000e+01 a x = 0,000000000000000e+00
+a0 = 1,105602240896329e-05 +/- 2,545375210896228e-06
+a1 = 1,040961611917492e-05 +/- 3,569615678230561e-07
+a2 = 2,860803412274004e-07 +/- 1,045464847892498e-08
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,747006867263030e-11
+R^2 = 0,999350388320927
+Adjusted R^2 = 0,99928542715302
+RMSE (Root Mean Squared Error) = 5,24118962380014e-06
+RSS (Residual Sum of Squares) = 8,51572128851539e-10
+---------------------------------------------------------------------------------------
+[28/04/16 12:44	Gráfica: ''Gráfica5'']
+Crecimiento exponencial of dataset: Tabla5_1, usando función : y0+A*exp(x/t)
+Método de Pesado: Sin pesado
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 3,300000000000000e+01 a x = 0,000000000000000e+00
+A (amplitude) = -2,039790761307860e+05 +/- 4,953535330468221e+10
+t (lifetime) = -1,027580883999084e+10 +/- 2,495431634923443e+15
+y0 (offset) = 2,039790760914919e+05 +/- 4,953535330468221e+10
+--------------------------------------------------------------------------------------
+Chi^2/doF = 6,909916733479698e-10
+R^2 = -14,0804951620604
+Adjusted R^2 = -15,5885446782665
+RMSE (Root Mean Squared Error) = 0,000798565900065093
+RSS (Residual Sum of Squares) = 1,97689323991499e-05
+---------------------------------------------------------------------------------------
+Iteraciones = 20
+Estado = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[28/04/16 12:46	Gráfica: ''Gráfica5'']
+Non-linear Fit of dataset: Tabla5_1, usando función : y0+A*exp(x/t)
+Método de Pesado: Sin pesado
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 3,200000000000000e+01 a x = 0,000000000000000e+00
+A = 2,776470588234830e-04 +/- 6,206584251108689e-05
+t = -1,631007813512109e+11 +/- 5,686331347114969e+19
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,214039216409414e-08
+R^2 = -1,71602065890397e-10
+Adjusted R^2 = -0,142857143053259
+RMSE (Root Mean Squared Error) = 0,000205281251370149
+RSS (Residual Sum of Squares) = 6,32105882461412e-07
+---------------------------------------------------------------------------------------
+Iteraciones = 9
+Estado = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+y0 = 0 (constant)
+---------------------------------------------------------------------------------------
+[28/04/16 13:10	Gráfica: ''Gráfica5'']
+Non-linear Fit of dataset: Tabla5_1, usando función : y0+A*exp(w*(x+b)^2)
+Método de Pesado: Sin pesado
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 3,300000000000000e+01 a x = 0,000000000000000e+00
+A = -7,725471472897282e+00 +/- 8,207286325346811e+03
+w = -3,791351017635495e-09 +/- 4,029581033918674e-06
+y0 = 7,722381648546657e+00 +/- 8,207287115636253e+03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,623283129980920e-10
+R^2 = 0,986702070389766
+Adjusted R^2 = 0,985372277428742
+RMSE (Root Mean Squared Error) = 2,37134626952306e-05
+RSS (Residual Sum of Squares) = 1,74321777029408e-08
+---------------------------------------------------------------------------------------
+Iteraciones = 1000
+Estado = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+b = 323 (constant)
+---------------------------------------------------------------------------------------
+[28/04/16 13:10	Gráfica: ''Gráfica5'']
+Non-linear Fit of dataset: Tabla5_1, usando función : y0+A*exp(w*(x+b)^2)
+Método de Pesado: Sin pesado
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 3,300000000000000e+01 a x = 0,000000000000000e+00
+A = -7,787626939713863e+00 +/- 1,649549426270974e+03
+b = 1,819055341475685e+01 +/- 1,459798842249191e+00
+w = -3,674023766013303e-08 +/- 7,783288979329339e-06
+y0 = 7,787543321587960e+00 +/- 1,649549422736406e+03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,838989511226578e-11
+R^2 = 0,999350293176312
+Adjusted R^2 = 0,99926067844201
+RMSE (Root Mean Squared Error) = 5,32821687924448e-06
+RSS (Residual Sum of Squares) = 8,51696853367973e-10
+---------------------------------------------------------------------------------------
+Iteraciones = 79
+Estado = success
+---------------------------------------------------------------------------------------
+[28/04/16 13:11	Gráfica: ''Gráfica5'']
+Non-linear Fit of dataset: Tabla5_1, usando función : y0+A*exp(w*(x+b)^2)
+Método de Pesado: Sin pesado
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 3,300000000000000e+01 a x = 0,000000000000000e+00
+A = -5,309505797621484e-05 +/- 0,000000000000000e+00
+b = 5,709790422789812e+05 +/- 0,000000000000000e+00
+w = -9,025693162865920e-04 +/- 0,000000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,334064516129032e-07
+R^2 = -2,15479331574319
+Adjusted R^2 = -2,4702726473175
+RMSE (Root Mean Squared Error) = 0,000365248479275278
+RSS (Residual Sum of Squares) = 4,1356e-06
+---------------------------------------------------------------------------------------
+Iteraciones = 3
+Estado = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+y0 = 0 (constant)
+---------------------------------------------------------------------------------------
+</log>
+</folder>
+<open>1</open>
+<log>
+[22/04/16 15:20	Gráfica: ''Gráfica1'']
+Regresión Lineal of dataset: Tabla1_1, usando función : A*x+B
+Método de Pesado: Sin pesado
+Desde x = 3,300000000000000e+01 a x = 0,000000000000000e+00
+B (y-intercept) = -3,396799187095135e-05 +/- 5,863747141328068e-06
+A (slope) = 1,151149498285279e-05 +/- 3,219188391067091e-07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,331121945500200e-10
+R^2 = 0,980072137431609
+Adjusted R^2 = 0,978477908426138
+RMSE (Root Mean Squared Error) = 1,52680121348531e-05
+RSS (Residual Sum of Squares) = 6,06091705830052e-09
+---------------------------------------------------------------------------------------
+[22/04/16 15:25	Gráfica: ''Gráfica2'']
+Regresión Lineal of dataset: Tabla2_2, usando función : A*x+B
+Método de Pesado: Sin pesado
+Desde x = 2,200000000000000e+01 a x = 0,000000000000000e+00
+B (y-intercept) = -1,673913043478267e-05 +/- 3,605878091593021e-06
+A (slope) = 1,440711462450593e-05 +/- 2,807172287080334e-07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7,974778844344055e-11
+R^2 = 0,992090397589597
+Adjusted R^2 = 0,991299437348556
+RMSE (Root Mean Squared Error) = 8,9301617254919e-06
+RSS (Residual Sum of Squares) = 1,67470355731225e-09
+---------------------------------------------------------------------------------------
+
+[28/04/16 12:37	Gráfica: ''Gráfica1'']
+Non-linear Fit of dataset: Tabla1_1, usando función : a0+a1*x+a2*x^2
+Método de Pesado: Sin pesado
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 3,300000000000000e+01 a x = 0,000000000000000e+00
+a0 = 3,682465734863602e-05 +/- 4,248494663879244e-06
+a2 = 3,368040467701657e-07 +/- 9,407855503821426e-09
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,325853188863341e-10
+R^2 = 0,980117178000323
+Adjusted R^2 = 0,978526552240349
+RMSE (Root Mean Squared Error) = 1,52507481418563e-05
+RSS (Residual Sum of Squares) = 6,04721829104469e-09
+---------------------------------------------------------------------------------------
+Iteraciones = 2
+Estado = success
+---------------------------------------------------------------------------------------
+a1 = 0 (constant)
+---------------------------------------------------------------------------------------
+[28/04/16 12:39	Gráfica: ''Gráfica1'']
+Non-linear Fit of dataset: Tabla1_1, usando función : a0+a1*x+a2*x^2
+Método de Pesado: Sin pesado
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 3,300000000000000e+01 a x = 0,000000000000000e+00
+a0 = -1,257760942072306e-06 +/- 2,787939738853322e-06
+a1 = 5,858090897635796e-06 +/- 3,771206206856262e-07
+a2 = 1,716065605264306e-07 +/- 1,103356512894902e-08
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,270856366715502e-11
+R^2 = 0,998133396598519
+Adjusted R^2 = 0,997900071173334
+RMSE (Root Mean Squared Error) = 4,76535031945764e-06
+RSS (Residual Sum of Squares) = 5,67714091678876e-10
+---------------------------------------------------------------------------------------
+Iteraciones = 2
+Estado = success
+---------------------------------------------------------------------------------------
+</log>

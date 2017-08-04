@@ -1,0 +1,842 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	24
+<table>
+Tabla1	30	2	20/05/16 11:50
+geometry	0	-9	445	220	active
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+</data>
+</table>
+<folder>	1	20/05/16 11:51	
+<open>0</open>
+<table>
+73	30	2	20/05/16 11:51
+geometry	0	410	445	220	minimized	
+header	1[Y]	2[X]
+ColWidth	156	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	91247.67225326	1.1413043478
+1	185030.0020691	1.3043478261
+2	273743.0167598	1.4673913043
+3	352317.4012001	1.6304347826
+4	423287.8129526	1.7934782609
+5	476515.621767	1.9565217391
+</data>
+</table>
+<table>
+43	30	2	20/05/16 11:52
+geometry	445	-9	445	220	
+header	1[Y]	2[X]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	60831.78150217	1.1413043478
+1	167287.399131	1.3043478261
+2	248396.4411339	1.4673913043
+3	319366.8528864	1.6304347826
+4	377663.976826	1.7934782609
+5	438495.7583282	1.9565217391
+</data>
+</table>
+<table>
+62	30	2	20/05/16 11:52
+geometry	392	410	445	220	minimized	
+header	1[Y]	2[X]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	60831.78150217	1.1413043478
+1	177426.0293813	1.3043478261
+2	266139.044072	1.4673913043
+3	332040.1406994	1.6304347826
+4	392871.9222015	1.7934782609
+5	461307.6763915	1.9565217391
+</data>
+</table>
+<table>
+33	30	2	20/05/16 11:53
+geometry	196	410	445	220	minimized	
+header	1[Y]	2[X]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	50693.15125181	1.1413043478
+1	157148.7688806	1.3043478261
+2	245861.7835713	1.4673913043
+3	311762.8801986	1.6304347826
+4	370060.0041382	1.7934782609
+5	433426.443203	1.9565217391
+</data>
+</table>
+<table>
+54	30	2	20/05/16 11:54
+geometry	445	211	445	220	
+header	1[Y]	2[X]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	45623.83612663	1.1413043478
+1	172356.7142562	1.3043478261
+2	261069.7289468	1.4673913043
+3	329505.4831368	1.6304347826
+4	392871.9222015	1.7934782609
+5	453703.7037037	1.9565217391
+</data>
+</table>
+<table>
+20	30	2	20/05/16 11:54
+geometry	588	410	445	220	minimized	active
+header	1[Y]	2[X]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	45623.83612663	1.1413043478
+1	147010.1386303	1.3043478261
+2	235723.1533209	1.4673913043
+3	304158.9075109	1.6304347826
+4	364990.689013	1.7934782609
+5	423287.8129526	1.9565217391
+</data>
+</table>
+<multiLayer>
+Gráfica1	1	1	20/05/16 11:55
+geometry	304	-42	607	485	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	589	422
+<PageGeometry>0.00834725	0.0114416	0.983306	0.965675</PageGeometry>
+PlotTitle	Stress vs Fractional Lenght	#000000	4
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Fractional Lenght (L/L<sub>0</sub>)	Stress f/A<sub>0</sub> (Nm<sup>-2</sup>)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	4	4	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	20	75	0	0	0
+ScaleFont0	Cantarell	14	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	14	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#313739	#313739	#313739	#313739
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	73_2	73_1	2	1	#000000	0	1	9	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+curve	43_2	43_1	2	1	#ff0000	0	1	7	2	#ff0000	#ff0000	0	#000000	14	1	2	0	0	29	1
+curve	62_2	62_1	2	1	#00ff00	0	1	7	3	#00ff00	#00ff00	0	#000000	14	1	2	0	0	29	1
+curve	33_2	33_1	2	1	#0000ff	0	1	7	4	#0000ff	#0000ff	0	#000000	14	1	2	0	0	29	1
+curve	54_2	54_1	2	1	#800080	0	1	7	5	#800080	#800080	0	#000000	14	1	2	0	0	29	1
+curve	20_2	20_1	2	1	#ffff00	0	1	7	6	#ffff00	#ffff00	0	#000000	14	1	2	0	0	29	1
+scale	0	0	500000	0	6	5	0	0
+scale	1	0	500000	0	6	5	0	0
+scale	2	1	2	0	6	5	0	0
+scale	3	1	2	0	6	5	0	0
+LabelsFormat	3	0	0	6	1	1	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>1.0364372469636</x>
+<y>496732.02614379</y>
+<right>1.20523138832998</right>
+<bottom>438906.752411576</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1) 346 K<sup>o</sup>
+\l(2) 316 K<sup>o</sup>
+\l(3) 335 K<sup>o</sup>
+\l(4) 306 K<sup>o</sup>
+\l(5) 327 K<sup>o</sup>
+\l(6) 293 K<sup>o</sup>
+</Text>
+<Font>Cantarell	15	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+</folder>
+<folder>	Nueva Carpeta	20/05/16 12:11	
+<open>0</open>
+<table>
+Tabla2	30	2	20/05/16 12:11
+geometry	0	410	445	220	minimized	
+header	2[X]	1[Y]
+ColWidth	130	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	1.486635212	118856.9927448
+1	2.2191172845	314795.8447301
+2	3.1596416023	589433.6578978
+3	4.3342134462	936571.54147
+4	5.7688380969	1361532.456006
+5	7.489520835	1824090.990696
+</data>
+</table>
+<table>
+Tabla3	30	2	20/05/16 12:11
+geometry	392	410	445	220	minimized	
+header	1[Y]	2[X]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	79237.99516322	1.486635212
+1	301859.0291932	2.2191172845
+2	573060.500734	3.1596416023
+3	882668.1433998	4.3342134462
+4	1263697.788509	5.7688380969
+5	1765875.32078	7.489520835
+</data>
+</table>
+<table>
+Tabla4	30	2	20/05/16 12:11
+geometry	784	410	445	220	minimized	
+header	1[Y]	2[X]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	59428.49637241	1.486635212
+1	293234.485502	2.2191172845
+2	562145.0626247	3.1596416023
+3	875930.218641	4.3342134462
+4	1263697.788509	5.7688380969
+5	1736767.485822	7.489520835
+</data>
+</table>
+<table>
+Tabla5	30	2	20/05/16 12:11
+geometry	196	410	445	220	minimized	
+header	1[Y]	2[X]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	79237.99516322	1.486635212
+1	284609.9418107	2.2191172845
+2	534856.4673517	3.1596416023
+3	848978.5196059	4.3342134462
+4	1214780.45476	5.7688380969
+5	1678551.815906	7.489520835
+</data>
+</table>
+<table>
+Tabla6	30	2	20/05/16 12:11
+geometry	588	410	445	220	minimized	
+header	1[Y]	2[X]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	66031.66263601	1.486635212
+1	267360.8544283	2.2191172845
+2	529398.7482971	3.1596416023
+3	828764.7453295	4.3342134462
+4	1190321.787886	5.7688380969
+5	1659146.592601	7.489520835
+</data>
+</table>
+<table>
+Tabla7	30	2	20/05/16 12:11
+geometry	980	410	445	220	minimized	active
+header	1[Y]	2[X]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	59428.49637241	1.486635212
+1	250111.7670458	2.2191172845
+2	507567.8720787	3.1596416023
+3	808550.9710532	4.3342134462
+4	1174016.009969	5.7688380969
+5	1620336.145991	7.489520835
+</data>
+</table>
+<multiLayer>
+Gráfica2	1	1	20/05/16 12:14
+geometry	568	-24	607	485	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	589	422
+<PageGeometry>0.00834725	0.0114416	0.983306	0.965675</PageGeometry>
+PlotTitle	Ajuste Strain vs Fractional Lenght	#000000	4
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Fractional Lenght<sup>3</sup>	Strain(Fractional Lenght)<sup>2</sup>		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	4	4	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	20	75	0	0	0
+ScaleFont0	Cantarell	14	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	14	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#313739	#313739	#313739	#313739
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Tabla2_2	Tabla2_1	1	0	#000000	0	1	9	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+curve	Tabla3_2	Tabla3_1	1	0	#ff0000	0	1	9	2	#ff0000	#ff0000	0	#000000	14	1	2	0	0	29	1
+curve	Tabla4_2	Tabla4_1	1	0	#00ff00	0	1	9	3	#00ff00	#00ff00	0	#000000	14	1	2	0	0	29	1
+curve	Tabla5_2	Tabla5_1	1	0	#0000ff	0	1	9	4	#0000ff	#0000ff	0	#000000	14	1	2	0	0	29	1
+curve	Tabla6_2	Tabla6_1	1	0	#00ffff	0	1	9	5	#ff8000	#ff8000	0	#000000	14	1	2	0	0	29	1
+curve	Tabla7_2	Tabla7_1	1	0	#ff00ff	0	1	9	6	#800080	#800080	0	#000000	14	1	2	0	0	29	1
+scale	0	0	2000000	0	5	5	0	0
+scale	1	0	2000000	0	5	5	0	0
+scale	2	1	8	0	8	5	0	0
+scale	3	1	8	0	8	5	0	0
+LabelsFormat	3	0	0	6	1	1	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>1.0841683366733</x>
+<y>2092879.2569659</y>
+<right>2.43661971830986</right>
+<bottom>1755627.0096463</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1) 346 K<sup>o</sup>, Y'=2.86*10<sup>5</sup> Nm<sup>-2</sup>
+\l(2) 335 K<sup>o</sup>, Y'=2.77*10<sup>5</sup> Nm<sup>-2</sup>
+\l(3) 327 K<sup>o</sup>, Y'=2.76*10<sup>5</sup> Nm<sup>-2</sup>
+\l(4) 316 K<sup>o</sup>, Y'=2.65*10<sup>5</sup> Nm<sup>-2</sup>
+\l(5) 306 K<sup>o</sup>, Y'=2.63*10<sup>5</sup> Nm<sup>-2</sup>
+\l(6) 293 K<sup>o</sup>, Y'=2.59*10<sup>5</sup> Nm<sup>-2</sup>
+</Text>
+<Font>Cantarell	14	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+</folder>
+<folder>	Nueva Carpeta (2)	20/05/16 12:29		current
+<open>1</open>
+<table>
+Tabla8	30	2	20/05/16 12:36
+geometry	0	419	445	220	minimized	active
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	346	286000
+1	316	265000
+2	335	277000
+3	306	263000
+4	327	276000
+5	293	259000
+</data>
+</table>
+<multiLayer>
+Gráfica3	1	1	20/05/16 12:37
+geometry	445	-9	607	485	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	589	422
+<PageGeometry>0.00834725	0.0114416	0.983306	0.965675</PageGeometry>
+PlotTitle	Y' vs T	#000000	4
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Temperatura (K<sup>o</sup>)	Modulo de Young Efectivo (Nm<sup>-2</sup>)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	4	4	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	24	75	0	0	0
+ScaleFont0	Cantarell	14	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	14	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#313739	#313739	#313739	#313739
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Tabla8_1	Tabla8_2	1	0	#000000	0	1	17	9	#000000	#000000	0	#000000	14	2	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>LinealAjustar1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>293	346</Range>
+<Points>2</Points>
+<Constant>A	516.009526329717</Constant>
+<Constant>B	105618.946811326</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	255000	290000	0	8	5	0	0
+scale	1	255000	290000	0	8	5	0	0
+scale	2	290	350	0	7	5	0	0
+scale	3	290	350	0	7	5	0	0
+LabelsFormat	3	0	0	6	1	1	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>291.48453608247</x>
+<y>288856.20915033</y>
+<right>301.649269311065</right>
+<bottom>285625</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(2) Y'= 512*T
+</Text>
+<Font>Cantarell	31	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<log>
+[20/05/16 12:38	Gráfica: ''Gráfica3'']
+Regresión Lineal of dataset: Tabla8_2, usando función : A*x+B
+Método de Pesado: Sin pesado
+Desde x = 3,460000000000000e+02 a x = 2,930000000000000e+02
+B (y-intercept) = 1,056189468113258e+05 +/- 1,914654622142716e+04
+A (slope) = 5,160095263297168e+02 +/- 5,964824985784803e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 6,722677957131514e+06
+R^2 = 0,949262807870705
+Adjusted R^2 = 0,915438013117842
+RMSE (Root Mean Squared Error) = 2.592,81275010973
+RSS (Residual Sum of Squares) = 26.890.711,8285263
+---------------------------------------------------------------------------------------
+
+</log>
+</folder>
+<folder>	Nueva Carpeta (3)	20/05/16 12:43	
+<open>1</open>
+<table>
+Tabla9	30	2	20/05/16 12:44
+geometry	784	395	445	220	minimized	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	105	0.882
+1	120	1.666
+2	135	2.45
+3	150	3.185
+4	165	4.018
+5	180	4.557
+</data>
+</table>
+<table>
+Tabla10	30	2	20/05/16 12:44
+geometry	392	395	445	220	minimized	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	105	0.882
+1	120	1.911
+2	135	2.842
+3	150	3.626
+4	165	4.165
+5	180	4.655
+</data>
+</table>
+<table>
+Tabla11	30	2	20/05/16 12:44
+geometry	0	395	445	220	minimized	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	105	0.441
+1	120	1.617
+2	135	2.499
+3	150	3.087
+4	165	3.724
+5	180	4.41
+</data>
+</table>
+<table>
+Tabla12	30	2	20/05/16 12:44
+geometry	588	395	445	220	minimized	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	105	0.441
+1	120	1.715
+2	135	2.548
+3	150	3.283
+4	165	3.871
+5	180	4.361
+</data>
+</table>
+<table>
+Tabla13	30	2	20/05/16 12:44
+geometry	196	395	445	220	minimized	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	105	0.49
+1	120	1.47
+2	135	2.303
+3	150	2.94
+4	165	3.479
+5	180	4.165
+</data>
+</table>
+<table>
+Tabla14	30	2	20/05/16 12:44
+geometry	980	395	445	220	minimized	active
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	105	0.49
+1	120	1.47
+2	135	2.303
+3	150	2.94
+4	165	3.479
+5	180	4.165
+</data>
+</table>
+<multiLayer>
+Gráfica4	1	1	20/05/16 12:46
+geometry	679	-24	535	485	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	517	422
+<PageGeometry>0.00948767	0.0114416	0.981025	0.965675</PageGeometry>
+PlotTitle	Ciclo de histeresis	#000000	4
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Longitud (mm)	Fuerza (N)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	4	4	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	20	75	0	0	0
+ScaleFont0	Cantarell	14	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	14	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#313739	#313739	#313739	#313739
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Tabla9_1	Tabla9_2	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+curve	Tabla10_1	Tabla10_2	2	1	#000000	1	1	7	2	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+curve	Tabla11_1	Tabla11_2	2	1	#00ff00	0	1	7	3	#00ff00	#00ff00	0	#000000	14	1	2	0	0	29	1
+curve	Tabla12_1	Tabla12_2	2	1	#00ff00	1	1	7	4	#00ff00	#00ff00	0	#000000	14	1	2	0	0	29	1
+curve	Tabla13_1	Tabla13_2	2	1	#ff0000	0	1	7	5	#ff0000	#ff0000	0	#000000	14	1	2	0	0	29	1
+curve	Tabla14_1	Tabla14_2	2	1	#ff0000	1	1	7	6	#ff0000	#ff0000	0	#000000	14	1	2	0	0	29	1
+scale	0	0	5	0	6	5	0	0
+scale	1	0	5	0	6	5	0	0
+scale	2	100	190	0	10	5	0	0
+scale	3	100	190	0	10	5	0	0
+LabelsFormat	1	2	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>103.55813953488</x>
+<y>4.7875816993464</y>
+<right>121.428571428571</right>
+<bottom>4.38906752411576</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1) 346 K<sup>o</sup>
+\l(3) 327 K<sup>o</sup>
+\l(5) 306 K<sup>o</sup>
+</Text>
+<Font>Cantarell	18	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+</folder>
+<open>1</open>

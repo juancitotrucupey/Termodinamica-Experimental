@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fit>
+<fit version="1.0">
+<model>SteinHartEqu</model>
+<type>2</type>
+<function>exp((((B/(3*C))^(3)+(1/(2*C)*(A-1/x))^(2))^(1/2)-1/(2*C)*(A-1/x))^(1/3)-(((B/(3*C))^(3)+(1/(2*C)*(A-1/x))^(2))^(1/2)+1/(2*C)*(A-1/x))^(1/3))</function>
+<parameter>
+    <name>A</name>
+    <explanation></explanation>
+    <value>1.0000000000000e+00</value>
+</parameter>
+<parameter>
+    <name>B</name>
+    <explanation></explanation>
+    <value>1.0000000000000e+00</value>
+</parameter>
+<parameter>
+    <name>C</name>
+    <explanation></explanation>
+    <value>1.0000000000000e+00</value>
+</parameter>
+</fit>
